@@ -5,7 +5,7 @@
 | 파일 | 역할 | 비고 |
 |---|---|---|
 | `CNAME` | 커스텀 도메인 `faithreason.kr` | **삭제 금지** |
-| `index.html` | 루트 → `/Faith_Reason/` 포털로 이동(meta refresh + canonical) | |
+| `index.html` | 루트 → `/Faith_Reason/` 포털로 이동(meta refresh + canonical) | **OG·description 태그 필수** — 카카오 등 스크래퍼는 refresh를 따라가지 않고 이 페이지의 태그를 읽음 |
 | `404.html` | 도메인 공통 404 페이지 | 각 시리즈 레포에도 같은 파일이 있음 |
 | `sitemap.xml` | 전 시리즈 30 URL | Search Console·네이버에 제출됨 — 페이지 추가·수정 시 갱신 |
 | `robots.txt` | 전체 허용 + sitemap 위치 | **삭제 금지** |
